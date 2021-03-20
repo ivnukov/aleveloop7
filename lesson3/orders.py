@@ -1,5 +1,7 @@
 from datetime import date, timedelta
 
+from whitespaces import main
+
 DATABASE_URL = 'postgres://user:pass@localhost:5432'
 
 database_url = DATABASE_URL.split(':')
