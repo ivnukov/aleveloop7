@@ -6,5 +6,5 @@ print('Done')
 
 # import Rectangle: lesson1.rectangle
 # import app:      app
-# python test.py:   __main__
+# python qwetest.py:   __main__
 # Done

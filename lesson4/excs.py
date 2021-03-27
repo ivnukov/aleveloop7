@@ -1,3 +1,6 @@
+import traceback
+
+
 class MySuperExceptionException(Exception):
     pass
 
@@ -29,10 +32,10 @@ def main_first():
 
 
 def divide(a, b):
-    try:
-        return a / b
-    except ZeroDivisionError:
-        return "Can't divide by zer0"
+    # try:
+    return a / b
+    # except ZeroDivisionError:
+    #     return "Can't divide by zer0"
 
 
 if __name__ == '__main__':
@@ -42,15 +45,18 @@ if __name__ == '__main__':
     try:
         first = int(input('Enter the first number: \n'), 10)
         second = int(input('Enter the second number: \n'), 10)
-    except (ValueError, ZeroDivisionError, TypeError) as err:
+        result = divide(first, second)
+    except (ValueError  , TypeError) as err:
         second = 1
         print("Input is wrong")
-        err.some_method()
-    except ArithmeticError:
-        pass
-    else:
-        print('Molodec! Pryam dva chisla vvel!')
+        # err.some_method()
+        # a = traceback.format_exc()
+        # print(a)
+    # except ArithmeticError:
+    #     pass
+    # else:
+    #     print('Molodec! Pryam dva chisla vvel!')
     finally:
         print("Im in finally!")
 
-    print(f'Result is {divide(first, second)}.')
+    # print(f'Result is {divide(first, second)}.')
