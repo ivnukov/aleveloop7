@@ -16,4 +16,4 @@ __________
 - Lesson 3: https://github.com/PonomaryovVladyslav/PythonCources/blob/master/lesson17.md
 - Lesson 4: https://github.com/PonomaryovVladyslav/PythonCources/blob/master/lesson18.md
 - Lesson 5: https://github.com/PonomaryovVladyslav/PythonCources/blob/master/lesson19.md
-
+- Lesson 6: https://github.com/PonomaryovVladyslav/PythonCources/blob/master/lesson20.md
